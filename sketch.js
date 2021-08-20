@@ -86,7 +86,7 @@ obstacleGroup.add(obstackles);
 }
     
     function obstacleNew(){
-        if (frameCount % 20=== 0 ){ 
+        if (frameCount % 100=== 0 ){ 
             var obstackles = createSprite(random(500,800), 50);
             obstackles.velocityY = 5;
             obstackles.scale = 0.1;
